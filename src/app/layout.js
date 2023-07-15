@@ -1,16 +1,7 @@
 "use client"
 
 import 'bootstrap/dist/css/bootstrap.css'; // Add this line
-//import 'bootstrap/dist/js/bootstrap.bundle.js' ;
-//import 'bootstrap'
-
-//import * as bootstrap from 'bootstrap';
-//window.bootstrap = bootstrap;
-
-//window.bootstrap = require('bootstrap/dist/js/bootstrap.bundle.min.js');
-
-
-
+import 'bootstrap/dist/js/bootstrap.bundle.js' ;
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -26,7 +17,7 @@ function RootLayout({ children }) {
 
       </head>
       <body className={inter.className}>{children}
-      
+
       </body>
     </html>
   )

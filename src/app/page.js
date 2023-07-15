@@ -1,13 +1,7 @@
 'use client'
 
 import Link from '../components/Link/Link.jsx';
-import { useEffect } from 'react';
-import 'bootstrap/dist/js/bootstrap.bundle.js' ;
 export default function Home() {
-
-  useEffect(() => {
-    //require("bootstrap/dist/js/bootstrap.bundle.min.js");
-  }, [])
 
   return (
     <main >
